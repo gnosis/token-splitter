@@ -7,6 +7,6 @@ cache:
 before_script: 
   - truffle compile
 script:
-  - truffle develop > /dev/null &
+  - ganache-cli -d -p 9545 --defaultBalanceEther 10000 -a 30 > /dev/null &
   - sleep 5
   - truffle test
