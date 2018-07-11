@@ -31,6 +31,7 @@
   "homepage": "https://github.com/gnosis/token-splitter#readme",
   "dependencies": {
     "@gnosis.pm/util-contracts": "^1.0.1",
+    "bignumber.js": "^7.2.1",
     "ethereumjs-abi": "^0.6.5",
     "ganache-cli": "^6.1.4",
     "truffle": "^4.1.13",
