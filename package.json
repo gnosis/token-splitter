@@ -28,6 +28,8 @@
   },
   "homepage": "https://github.com/gnosis/token-splitter#readme",
   "dependencies": {
-    "@gnosis.pm/util-contracts": "^1.0.1"
+    "@gnosis.pm/util-contracts": "^1.0.1",
+    "ganache-cli": "^6.1.4",
+    "truffle": "^4.1.13"
   }
 }
