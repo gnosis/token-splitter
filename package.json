@@ -7,6 +7,8 @@
     "test": "test"
   },
   "scripts": {
+    "networks-extract": "node src/extract_network_info.js",
+    "networks-inject": "node src/inject_network_info.js",
     "test": "truffle test"
   },
   "repository": {
@@ -30,6 +32,7 @@
   "dependencies": {
     "@gnosis.pm/util-contracts": "^1.0.1",
     "ganache-cli": "^6.1.4",
-    "truffle": "^4.1.13"
+    "truffle": "^4.1.13",
+    "truffle-hdwallet-provider-privkey": "^0.2.0"
   }
 }
