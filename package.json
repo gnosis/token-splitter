@@ -1,0 +1,33 @@
+{
+  "name": "token-splitter",
+  "version": "0.1.0",
+  "description": "Smart contract to split tokens between addresses",
+  "main": "truffle-config.js",
+  "directories": {
+    "test": "test"
+  },
+  "scripts": {
+    "test": "truffle test"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/gnosis/token-splitter.git"
+  },
+  "keywords": [
+    "smart",
+    "contract",
+    "ethereum",
+    "token",
+    "splitter",
+    "multiplex"
+  ],
+  "author": "Uxio <uxio@gnosis.pm> (gnosis.pm)",
+  "license": "GPL-3.0",
+  "bugs": {
+    "url": "https://github.com/gnosis/token-splitter/issues"
+  },
+  "homepage": "https://github.com/gnosis/token-splitter#readme",
+  "dependencies": {
+    "@gnosis.pm/util-contracts": "^1.0.1"
+  }
+}
