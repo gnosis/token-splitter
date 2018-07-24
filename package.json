@@ -24,7 +24,7 @@
     "multiplex"
   ],
   "author": "Uxio <uxio@gnosis.pm> (gnosis.pm)",
-  "license": "GPL-3.0",
+  "license": "LGPL-3.0",
   "bugs": {
     "url": "https://github.com/gnosis/token-splitter/issues"
   },
