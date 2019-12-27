@@ -1,6 +1,6 @@
 {
   "name": "token-splitter",
-  "version": "0.1.0",
+  "version": "0.1.1",
   "description": "Smart contract to split tokens between addresses",
   "main": "truffle-config.js",
   "directories": {
@@ -30,11 +30,12 @@
   },
   "homepage": "https://github.com/gnosis/token-splitter#readme",
   "dependencies": {
-    "@gnosis.pm/util-contracts": "^1.0.1",
-    "bignumber.js": "^7.2.1",
-    "ethereumjs-abi": "^0.6.5",
-    "ganache-cli": "^6.1.4",
-    "truffle": "^4.1.13",
-    "truffle-hdwallet-provider-privkey": "^0.2.0"
+    "@gnosis.pm/util-contracts": "^2.0.6",
+    "bignumber.js": "^9.0.0",
+    "dotenv": "^8.2.0",
+    "ethereumjs-abi": "^0.6.8",
+    "ganache-cli": "^6.7.0",
+    "truffle": "^5.1.5",
+    "@truffle/hdwallet-provider": "^1.0.28"
   }
 }
