@@ -1,12 +1,12 @@
 language: node_js
 node_js:
-- '9'
+- '13'
 cache:
   directories:
     - node_modules
 before_script: 
   - truffle compile
 script:
-  - ganache-cli -d -p 9545 --defaultBalanceEther 10000 -a 30 > /dev/null &
+  - ganache-cli -d -p 8545 --defaultBalanceEther 10000 -a 30 > /dev/null &
   - sleep 5
   - truffle test
