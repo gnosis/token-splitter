@@ -8,4 +8,4 @@ Remember to `Approve` the erc20 token using the address of the contract before c
 
 Addresses
 -------------
-Rinkeby: `0xe1a567b650BC37BCF395003477FaAdA944a7Ab36`
+Rinkeby: `0x063e82a06a2CCD48Ea838dA3388A755B8b4997b5`
