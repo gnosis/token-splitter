@@ -6,6 +6,7 @@ module.exports = async ({getNamedAccounts, deployments}) => {
     from: deployer,
     // args: [],
     log: true,
+    deterministicDeployment: true,
   });
 };
 module.exports.tags = ['TokenSplitter'];
