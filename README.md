@@ -1,11 +1,15 @@
-Token splitter
--------------
-This contract implements a function that receives a `list of addresses`, a `ERC20 token contract address` and the `amount to send per account`
-and sends to every contract the amount of tokens.
+# Basic Sample Hardhat Project
 
-Remember to `Approve` the `ERC20` token using the address of the contract before calling `splitTokens` function.
+This project demonstrates a basic Hardhat use case. It comes with a sample contract, a test for that contract, a sample script that deploys that contract, and an example of a task implementation, which simply lists the available accounts.
 
-Addresses
--------------
-- [Mainnet](https://etherscan.io/address/0x31Df8A24548c037C7A08d49512ecaF07da2cb75B): `0x31Df8A24548c037C7A08d49512ecaF07da2cb75B` 
-- [Rinkeby](https://rinkeby.etherscan.io/address/0x063e82a06a2CCD48Ea838dA3388A755B8b4997b5): `0x063e82a06a2CCD48Ea838dA3388A755B8b4997b5`
+Try running some of the following tasks:
+
+```shell
+npx hardhat accounts
+npx hardhat compile
+npx hardhat clean
+npx hardhat test
+npx hardhat node
+node scripts/sample-script.js
+npx hardhat help
+```
