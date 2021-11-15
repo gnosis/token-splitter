@@ -16,9 +16,17 @@ module.exports = {
     deployer: 0,
   },
   networks: {
+    mainnet: {
+      url: 'https://main-light.eth.linkpool.io/',
+      accounts: [DEPLOYMENT_KEY]
+    },
     rinkeby: {
       url: 'https://rinkeby-light.eth.linkpool.io/',
       accounts: [DEPLOYMENT_KEY]
-    }
+    },
+    goerli: {
+      url: 'https://rpc.goerli.mudit.blog/',
+      accounts: [DEPLOYMENT_KEY]
+    },
   }
 };

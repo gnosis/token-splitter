@@ -1,15 +1,18 @@
-# Basic Sample Hardhat Project
+Token splitter
+-------------
+This contract implements a function that receives a `list of addresses`, a `ERC20 token contract address` and the `amount to send per account`
+and sends to every contract the amount of tokens.
 
-This project demonstrates a basic Hardhat use case. It comes with a sample contract, a test for that contract, a sample script that deploys that contract, and an example of a task implementation, which simply lists the available accounts.
+Remember to `Approve` the `ERC20` token using the address of the contract before calling `splitTokens` function.
 
-Try running some of the following tasks:
+Addresses
+-------------
+- [Mainnet](https://etherscan.io/address/0x31Df8A24548c037C7A08d49512ecaF07da2cb75B): `0x31Df8A24548c037C7A08d49512ecaF07da2cb75B` 
+- [Rinkeby](https://rinkeby.etherscan.io/address/0xdAc3c6B0306b02Cc5e8A233211f3E94E80eDA01a): `0xdAc3c6B0306b02Cc5e8A233211f3E94E80eDA01a`
+- [Goerli](https://goerli.etherscan.io/address/0x0604db5D4f75f5Df62a53dAD32459145ddB1817C): `0x0604db5D4f75f5Df62a53dAD32459145ddB1817C`
 
-```shell
-npx hardhat accounts
-npx hardhat compile
-npx hardhat clean
-npx hardhat test
-npx hardhat node
-node scripts/sample-script.js
-npx hardhat help
-```
+Deployment
+----------
+npm install
+export DEPLOYMENT_KEY=<your_deployment_private_key>
+npx hardhat deploy-contracts --network rinkeby  # mainnet, goerli or add your network to `hardhat.config.js`
