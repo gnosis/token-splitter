@@ -4,6 +4,8 @@ require("@nomiclabs/hardhat-ethers")
 
 const { DEPLOYMENT_KEY } = process.env;
 
+const PRIVATE_KEY = DEPLOYMENT_KEY || "0x4f3edf983ac636a65a842ce7c78d9aa706d3b113bce9c46f30d7d21715b23b1d";  // Ganache-cli first account
+
 /**
  * @type import('hardhat/config').HardhatUserConfig
  */
@@ -18,15 +20,15 @@ module.exports = {
   networks: {
     mainnet: {
       url: 'https://main-light.eth.linkpool.io/',
-      accounts: [DEPLOYMENT_KEY]
+      accounts: [PRIVATE_KEY]
     },
     rinkeby: {
       url: 'https://rinkeby-light.eth.linkpool.io/',
-      accounts: [DEPLOYMENT_KEY]
+      accounts: [PRIVATE_KEY]
     },
     goerli: {
       url: 'https://rpc.goerli.mudit.blog/',
-      accounts: [DEPLOYMENT_KEY]
+      accounts: [PRIVATE_KEY]
     },
   }
 };
