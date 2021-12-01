@@ -20,6 +20,14 @@ module.exports = {
       },
       network_id: "4",
       gasPrice: 25000000000, // 25 Gwei
+    },
+    xdai: {
+      provider: () => {
+        return new HDWalletProvider(mnemonic, `https://rpc.xdaichain.com/`)
+      },
+      network_id: "100",
+      gas: 500000,
+      gasPrice: 1000000000,
     }
   },
   solc: {
