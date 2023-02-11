@@ -36,6 +36,6 @@
     "ethereumjs-abi": "^0.6.8",
     "ganache-cli": "^6.7.0",
     "truffle": "^5.1.5",
-    "@truffle/hdwallet-provider": "^1.0.28"
+    "@truffle/hdwallet-provider": "^1.7.0"
   }
 }
