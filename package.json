@@ -35,7 +35,7 @@
     "dotenv": "^8.2.0",
     "ethereumjs-abi": "^0.6.8",
     "ganache-cli": "^6.7.0",
-    "truffle": "^5.1.5",
+    "truffle": "^5.7.8",
     "@truffle/hdwallet-provider": "^1.0.28"
   }
 }
